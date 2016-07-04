@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Learn JS</title>
+    <link rel="stylesheet" href="css/style_study_home.css"/>
+    <script src="script/index.js" ></script>
+</head>
+
+<body>
+<div id = "links">
+    <a href="javascript: openWindow()">Открыть 9 окон</a>
+    <p><a href="javascript: closeWindow()">Закрыть 9 окон</a></p>
+    <p><a href="javascript: startClock()">Запустить Время</a></p>
+    <p><a href="javascript: stopClock()">Остановить Время</a></p>
+    <p><a href="javascript: myTryTimer()">Запустить Hello</a></p>
+    <p><a href="javascript: changeAttribute()">Поменять местами параграфы</a></p>
+    <p><a href="javascript: goWebSite()">Перейти на указаный вебсайт</a></p>
+    <p><a href="javascript: openClockWindow()">Запустить время в новом окне</a></p>
+    <p><a href="javascript: closeClockWindow()">Остановить время в новом окне</a></p>
+    <p><a href="javascript: changeSideBar()" id = "lrS">Скрыть rSideBar</a></p>
+    <h2><a href="javascript: startTimer()" >Запустить время</a></h2>
+    <h2><a href="javascript: stopTimer()" >Остановить время</a></h2>
+</div>
+
+<div id = "rSideBar">
+    <h1> Время: </h1>
+    <h2 id = clock ></h2>
+</div>
+
+<div id ="paragraf">
+    <a href="javascript: colorP()">Измепнить цвет параграфов</a>
+    <p align="right">Параграф №1</p>
+    <p align="left">Параграф №2</p>
+    <p align="right">Параграф №3</p>
+    <p align="left">Параграф №4</p>
+    <p>Параграф №5</p>
+    <p>Параграф №6</p>
+
+</div>
+
+<div id="list" >
+    <h4><a href="javascript: changeList() ">Добавить элемент:</a></h4>
+    <p><input type="button" value="Добавить элемент" onclick="changeList()"></p>
+    <p><input type="button" value="Удалить первый элемент" onclick="deleteFirstElement()"></p>
+    <p><input type="button" value="Удалить последний элемент" onclick="deleteLastElement()"></p>
+
+    <ul id="ulList">
+        <li>Музыка</li>
+        <li>Кино</li>
+        <li>Театр</li>
+    </ul>
+</div>
+
+<div>
+
+</div>
+
+</body>
+</html>

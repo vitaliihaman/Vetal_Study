@@ -1,0 +1,45 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+}
+p{
+    text-align: center;
+}
+
+.border{
+    border:  2px solid black;
+    margin:  5px auto;
+    padding: 5px 5px;
+}
+
+#divPhoto{
+    height: 500px;
+    width:  650px;
+    outline: 1px solid red;
+    margin:  5px auto;
+    padding: 5px auto;
+    display: none;
+}
+
+#photoContainer{
+    outline: 1px solid saddlebrown;
+}
+
+#photoContainer img{
+    width:  64px;
+    height: 48px;
+    margin:  7px;
+    cursor: pointer;
+    outline: 1px solid yellow;
+}
+#shadow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity : 0.4;
+    display: none;
+}
